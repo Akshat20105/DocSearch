@@ -26,7 +26,7 @@ project/
 │   ├── main.py    # FastAPI entry point
 │   ├── embeddings.py
 │   ├── api.py # API routes
-│   ├── faiss_index.py # API routes
+│   ├── routes.py # API routes
 |
 ├── requirements.txt # List of dependencies
 └── README.md      # Project documentation
