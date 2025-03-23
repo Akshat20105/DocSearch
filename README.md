@@ -73,7 +73,6 @@ curl "http://localhost:8000/api/data"
 ---
 
 ## **Technologies Used**
-- **Frontend**: Flask, HTML, CSS, JavaScript.
 - **Backend**: FastAPI, Hugging Face Sentence Transformers, FAISS.
 - **Vector Search**: FAISS for efficient similarity search.
 - **Embedding Models**: Hugging Face's `multi-qa-MiniLM-L6-cos-v1`.
