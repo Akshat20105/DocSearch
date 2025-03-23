@@ -31,7 +31,7 @@ project/
 │   ├── app.py     # Flask entry point
 │   ├── templates/ # HTML templates
 │   │   ├── index.html  # Main page template
-│   │   ├── about.html  # Example additional page
+│   │   ├── layout.html  
 │   ├── static/    # Static files (CSS, JS, images)
 │   ├── style.css  # Example CSS file
 ├── requirements.txt # List of dependencies
