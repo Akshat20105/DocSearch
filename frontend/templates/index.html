@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask + FastAPI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Welcome to Flask + FastAPI</h1>
+    <button id="fetch-data">Fetch Data from Backend</button>
+    <p id="response"></p>
+
+    <script>
+        document.getElementById("fetch-data").addEventListener("click", async () => {
+            const response = await fetch("/data");
+            const data = await response.json();
+            document.getElementById("response").textContent = data.message;
+        });
+    </script>
+</body>
+</html>
