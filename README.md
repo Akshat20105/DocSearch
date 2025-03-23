@@ -1,4 +1,4 @@
-# **Flask + FastAPI DocSearch**
+# **DocSearch**
 
 ## **Overview**
 This project combines **Flask** (frontend) and **FastAPI** (backend) to create a web application that finds similar documents using embeddings and vector search techniques. The backend uses **Hugging Face Sentence Transformers** to generate embeddings and **FAISS** for efficient similarity search, while the frontend provides an interactive interface for users.
@@ -10,12 +10,6 @@ This project combines **Flask** (frontend) and **FastAPI** (backend) to create a
   - Provides API endpoints for document similarity search.
   - Uses Hugging Face Sentence Transformers for embedding generation.
   - Stores embeddings in FAISS for fast vector search.
-
-- **Frontend (Flask)**:
-  - Renders HTML templates for user interaction.
-  - Fetches data from the FastAPI backend via HTTP requests.
-  - Displays results in a user-friendly format.
-
 ---
 
 ## **Project Structure**
@@ -62,14 +56,6 @@ Start the FastAPI server:
 uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
 ```
 The backend will be available at `http://localhost:8000`.
-
-### **Step 5: Run the Frontend (Flask)**
-Start the Flask server:
-```sh
-python frontend/app.py
-```
-The frontend will be available at `http://localhost:5000`.
-
 ---
 
 ## **Usage**
