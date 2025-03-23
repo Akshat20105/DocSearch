@@ -24,16 +24,10 @@ project/
 ├── .venv/         # Virtual environment (auto-managed)
 ├── backend/       # FastAPI backend
 │   ├── main.py    # FastAPI entry point
-│   ├── app/       # Backend logic
-│   │   ├── __init__.py
-│   │   ├── api.py # API routes
-├── frontend/      # Flask frontend
-│   ├── app.py     # Flask entry point
-│   ├── templates/ # HTML templates
-│   │   ├── index.html  # Main page template
-│   │   ├── layout.html  
-│   ├── static/    # Static files (CSS, JS, images)
-│   ├── style.css  # Example CSS file
+│   ├── embeddings.py
+│   ├── api.py # API routes
+│   ├── faiss_index.py # API routes
+|
 ├── requirements.txt # List of dependencies
 └── README.md      # Project documentation
 ```
