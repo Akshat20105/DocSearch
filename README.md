@@ -1,7 +1,7 @@
 # **DocSearch**
 
 ## **Overview**
-This project combines **Flask** (frontend) and **FastAPI** (backend) to create a web application that finds similar documents using embeddings and vector search techniques. The backend uses **Hugging Face Sentence Transformers** to generate embeddings and **FAISS** for efficient similarity search, while the frontend provides an interactive interface for users.
+This project uses **FastAPI** (backend) to create a web application that finds similar documents using embeddings and vector search techniques. The backend uses **Hugging Face Sentence Transformers** to generate embeddings and **FAISS** for efficient similarity search.
 
 ---
 
